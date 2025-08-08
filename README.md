@@ -14,9 +14,9 @@ Tahun 2025, program ini menawarkan alur pembelajaran Multi-Platform App Develope
 - Memulai Dasar Pemrograman untuk Menjadi Pengembang Software 
 - Pengenalan ke Logika Pemrograman (Programming Logic 101) 
 - Belajar Dasar Git dengan GitHub 
-- Memulai Pemrograman dengan Dart 
-- Belajar Membuat Aplikasi Flutter untuk Pemula 
-- Belajar Fundamental Aplikasi Flutter 
+-  **[Memulai Pemrograman dengan Dart](https://github.com/M-Mahfudl-Awaludin/BEKUP-CREATE-2025/tree/main/Memulai%20Pemrograman%20dengan%20Dart)**  
+- **[Belajar Membuat Aplikasi Flutter untuk Pemula](https://github.com/M-Mahfudl-Awaludin/BEKUP-CREATE-2025/tree/main/Belajar%20Membuat%20Aplikasi%20Flutter%20untuk%20Pemula)** 
+- **[Belajar Fundamental Aplikasi Flutter](https://github.com/M-Mahfudl-Awaludin/BEKUP-CREATE-2025/tree/main/Belajar%20Fundamental%20Aplikasi%20Flutter)** 
 - Belajar Prinsip Pemrograman SOLID
 - Belajar Dasar AI
-- Belajar Penerapan Machine Learning untuk Flutter
+- **[Belajar Penerapan Machine Learning untuk Flutter](https://github.com/M-Mahfudl-Awaludin/BEKUP-CREATE-2025/tree/main/Belajar%20Penerapan%20Machine%20Learning%20untuk%20Flutter)**
