@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Dart SDK"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Dart Packages"/>
+	<classpathentry kind="output" path="out/production/proyek-submission-mpd"/>
+</classpath>
