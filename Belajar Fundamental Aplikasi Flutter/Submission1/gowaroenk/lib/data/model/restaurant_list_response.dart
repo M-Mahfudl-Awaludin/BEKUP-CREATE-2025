@@ -15,12 +15,13 @@ class RestaurantListResponse {
 
   factory RestaurantListResponse.fromJson(Map<String, dynamic> json) {
     return RestaurantListResponse(
-      error: json['error'],
-      message: json['message'],
-      count: json['count'],
-      restaurants: (json['restaurants'] as List)
-          .map((e) => Restaurant.fromJson(e))
-          .toList(),
+      error: json['error'] ?? true,
+      message: json['message'] ?? '',
+      count: json['count'] ?? json['founded'] ?? 0,
+      restaurants: (json['restaurants'] as List<dynamic>?)
+          ?.map((e) => Restaurant.fromJson(e))
+          .toList() ??
+          [],
     );
   }
 }

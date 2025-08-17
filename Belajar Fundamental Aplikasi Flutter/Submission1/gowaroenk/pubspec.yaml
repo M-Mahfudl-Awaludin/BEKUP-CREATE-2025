@@ -26,6 +26,11 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+  assets:
+    - assets/animation/
+    - assets/image/
+
+
   fonts:
     - family: IBMPlexSansCondensed
       fonts:
