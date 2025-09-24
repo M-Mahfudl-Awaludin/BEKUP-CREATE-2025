@@ -2,21 +2,52 @@
 **ini adalah repository project saya selama mengikuti program BEKUP CREATE 2025 Multi-Platform App dengan Flutter**
 
 
-Program BEKUP Create: Upskilling Bootcamp 2025
+# Belajar Membuat Aplikasi Flutter untuk Pemula
 
-Salah satu program yang Ekraf luncurkan dalam BEKUP adalah BEKUP Create: Upskilling Bootcamp 2025 dengan topik Multi-Platform App Developer (Flutter).
+Selamat datang di submission kelas **Belajar Membuat Aplikasi Flutter untuk Pemula** 🎉  
+Pada submission ini, Anda diminta untuk membuat aplikasi Flutter sederhana dengan kriteria yang sudah ditentukan.  
+Tema aplikasi **bebas**, namun semakin detail dan lengkap aplikasi yang dibuat maka nilai submission bisa lebih tinggi.  
 
-Dalam kegiatan bootcamp intensif tahun ini, peserta akan mendapatkan transfer knowledge dari para praktisi handal yang sukses dalam pengembangan aplikasi Multi-Platform App Developer (Flutter) dengan materi, tutorial, latihan, pembelajaran berbasis proyek (project-based learning) dengan standar global, serta dukungan instruktur tatap muka, materi soft-skills dan pengembangan karir, fasilitator, forum diskusi, serta pengembangan prototipe proyek akhir secara online secara intensif dalam 5 bulan (Juli – November 2025).
+---
 
-Program belajar ini ditujukan untuk belajar programming secara online dan intensif di Dicoding dengan pembiayaan dari Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif (Kemenekraf/Bekraf) membuka kesempatan ini kepada generasi muda masa depan, baik yang sedang menempuh pendidikan formal Universitas/Politeknik ataupun yang tidak sedang menempuh pendidikan.
+## 🎯 Kriteria Submission
 
-Tahun 2025, program ini menawarkan alur pembelajaran Multi-Platform App Developer (Flutter) yang akan meliputi kelas-kelas:
-- Memulai Dasar Pemrograman untuk Menjadi Pengembang Software 
-- Pengenalan ke Logika Pemrograman (Programming Logic 101) 
-- Belajar Dasar Git dengan GitHub 
-- Memulai Pemrograman dengan Dart 
-- Belajar Membuat Aplikasi Flutter untuk Pemula 
-- Belajar Fundamental Aplikasi Flutter 
-- Belajar Prinsip Pemrograman SOLID
-- Belajar Dasar AI
-- Belajar Penerapan Machine Learning untuk Flutter
+### 1. Stateless Widget
+- Aplikasi harus menggunakan **Stateless Widget**.  
+- Contoh: menampilkan layout menggunakan `Row`, `Column`, atau `Container`.
+
+### 2. Stateful Widget
+- Aplikasi harus menggunakan **Stateful Widget**.  
+- Contoh: menerima input dari pengguna (`TextField`), menampilkan status aplikasi (`Counter`, `Switch`, `Checkbox`, dll).
+
+### 3. Navigation
+- Aplikasi harus memiliki minimal **2 (dua) halaman**.  
+- Terapkan navigasi antar halaman menggunakan `Navigator.push()` atau `Navigator.pushNamed()`.
+
+### 4. Layout Responsif
+- Tampilan aplikasi **tidak boleh overflow**.  
+- Tampilan harus menyesuaikan ukuran layar.  
+- Poin plus: tampilan responsif di perangkat mobile **dan** browser (Flutter Web).
+
+### 5. Kreativitas & Kelengkapan
+- Tema aplikasi bebas.  
+- Semakin detail dan lengkap fitur/tampilan aplikasi Anda, maka nilai submission akan lebih tinggi.  
+
+---
+
+## ✅ Syarat Kelulusan
+- Aplikasi harus memenuhi **semua kriteria di atas**.  
+- Aplikasi **dapat dijalankan tanpa error**.  
+- Tidak ada tampilan yang mengalami overflow.  
+- Navigasi antar halaman dapat berjalan dengan baik.  
+
+---
+
+## 🚀 Cara Menjalankan
+1. Pastikan Flutter SDK sudah terinstall.  
+2. Clone atau download repository ini.  
+3. Jalankan perintah berikut pada terminal:  
+
+```bash
+flutter pub get
+flutter run
