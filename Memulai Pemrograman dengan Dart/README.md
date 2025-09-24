@@ -2,21 +2,107 @@
 **ini adalah repository project saya selama mengikuti program BEKUP CREATE 2025 Multi-Platform App dengan Flutter**
 
 
-Program BEKUP Create: Upskilling Bootcamp 2025
+# Memulai Pemrograman dengan Dart
 
-Salah satu program yang Ekraf luncurkan dalam BEKUP adalah BEKUP Create: Upskilling Bootcamp 2025 dengan topik Multi-Platform App Developer (Flutter).
+Selamat datang di submission kelas **Memulai Pemrograman dengan Dart**.  
+Pada submission ini, kamu akan mengerjakan 4 buah *exam file* yang sudah disiapkan.  
+Setiap kriteria akan dinilai dengan rentang 0 sampai 4 points. Untuk lulus, kamu **harus mendapatkan minimal 2 points dari setiap kriteria**.  
+Submission akan ditolak jika ada kriteria yang bernilai **0 points**.  
 
-Dalam kegiatan bootcamp intensif tahun ini, peserta akan mendapatkan transfer knowledge dari para praktisi handal yang sukses dalam pengembangan aplikasi Multi-Platform App Developer (Flutter) dengan materi, tutorial, latihan, pembelajaran berbasis proyek (project-based learning) dengan standar global, serta dukungan instruktur tatap muka, materi soft-skills dan pengembangan karir, fasilitator, forum diskusi, serta pengembangan prototipe proyek akhir secara online secara intensif dalam 5 bulan (Juli – November 2025).
+---
 
-Program belajar ini ditujukan untuk belajar programming secara online dan intensif di Dicoding dengan pembiayaan dari Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif (Kemenekraf/Bekraf) membuka kesempatan ini kepada generasi muda masa depan, baik yang sedang menempuh pendidikan formal Universitas/Politeknik ataupun yang tidak sedang menempuh pendidikan.
+## 📌 Daftar Exam
+- `exam1.dart` → Dart Fundamental  
+- `exam2.dart` → Control Flow  
+- `exam3.dart` → Collections  
+- `exam4.dart` → Object Oriented Programming  
 
-Tahun 2025, program ini menawarkan alur pembelajaran Multi-Platform App Developer (Flutter) yang akan meliputi kelas-kelas:
-- Memulai Dasar Pemrograman untuk Menjadi Pengembang Software 
-- Pengenalan ke Logika Pemrograman (Programming Logic 101) 
-- Belajar Dasar Git dengan GitHub 
-- Memulai Pemrograman dengan Dart 
-- Belajar Membuat Aplikasi Flutter untuk Pemula 
-- Belajar Fundamental Aplikasi Flutter 
-- Belajar Prinsip Pemrograman SOLID
-- Belajar Dasar AI
-- Belajar Penerapan Machine Learning untuk Flutter
+---
+
+## 🎯 Kriteria Penilaian
+
+### Kriteria 1: Dart Fundamental
+Kerjakan **exam1.dart**, yaitu:
+- Menginisialisasi variabel yang diperlukan.
+- Memperbaiki fungsi `circleArea`.
+- Memperbaiki fungsi `parseAndAddOne`.
+
+**Ketentuan penilaian:**
+- **Reject (0 pts):**  
+  - Tidak menyelesaikan minimal 1 todo pada exam1.  
+  - Exam1 gagal di-*run* (error).  
+  - Tidak mengikuti ketentuan README - Exam 1.md.  
+- **Basic (2 pts):** Selesai 1 todo sesuai ketentuan.  
+- **Skilled (3 pts):** Selesai 2 todo sesuai ketentuan.  
+- **Advanced (4 pts):** Selesai semua todo sesuai ketentuan.  
+
+---
+
+### Kriteria 2: Control Flow
+Kerjakan **exam2.dart**, yaitu:
+- Membuat fungsi untuk mengecek bilangan ganjil atau genap.  
+- Membuat fungsi untuk menghasilkan list dari 1 sampai `x`.  
+- Membuat pola bintang (`*`).  
+
+**Ketentuan penilaian:**
+- **Reject (0 pts):**  
+  - Tidak menyelesaikan minimal 1 todo pada exam2.  
+  - Exam2 gagal di-*run* (error).  
+  - Tidak mengikuti ketentuan README - Exam 2.md.  
+- **Basic (2 pts):** Selesai 1 todo sesuai ketentuan.  
+- **Skilled (3 pts):** Selesai 2 todo sesuai ketentuan.  
+- **Advanced (4 pts):** Selesai semua todo sesuai ketentuan.  
+
+---
+
+### Kriteria 3: Collections
+Kerjakan **exam3.dart**, yaitu:
+- Melengkapi fungsi `uniqueElement` (konversi list integer ke set).  
+- Membuat fungsi yang mengembalikan tipe data `Map`.  
+- Melakukan update value pada data `Map`.  
+
+**Ketentuan penilaian:**
+- **Reject (0 pts):**  
+  - Tidak menyelesaikan minimal 1 todo pada exam3.  
+  - Exam3 gagal di-*run* (error).  
+  - Tidak mengikuti ketentuan README - Exam 3.md.  
+- **Basic (2 pts):** Selesai 1 todo sesuai ketentuan.  
+- **Skilled (3 pts):** Selesai 2 todo sesuai ketentuan.  
+- **Advanced (4 pts):** Selesai semua todo sesuai ketentuan.  
+
+---
+
+### Kriteria 4: Object Oriented Programming
+Kerjakan **exam4.dart**, yaitu:
+- Mengimplementasikan fungsi `incrementAge`.  
+- Mengimplementasikan fungsi `getStudentInfo` dengan `Future` (asynchronous).  
+- Membuat instance dari class.  
+
+**Ketentuan penilaian:**
+- **Reject (0 pts):**  
+  - Tidak menyelesaikan minimal 1 todo pada exam4.  
+  - Exam4 gagal di-*run* (error).  
+  - Tidak mengikuti ketentuan README - Exam 4.md.  
+- **Basic (2 pts):** Selesai 1 todo sesuai ketentuan.  
+- **Skilled (3 pts):** Selesai 2 todo sesuai ketentuan.  
+- **Advanced (4 pts):** Selesai semua todo sesuai ketentuan.  
+
+---
+
+## ✅ Syarat Kelulusan
+- Minimal **2 points pada setiap kriteria**.  
+- Tidak ada kriteria yang bernilai 0.  
+- Kode dapat dijalankan tanpa error.  
+- Mengikuti ketentuan yang sudah ditulis di masing-masing `README - Exam X.md`.  
+
+---
+
+## 🚀 Cara Menjalankan
+Jalankan setiap exam dengan perintah berikut:
+
+```bash
+dart exam1.dart
+dart exam2.dart
+dart exam3.dart
+dart exam4.dart
+
