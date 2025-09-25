@@ -1,0 +1,104 @@
+name: gowaroenk
+description: "Semua Rasa Ada di Sini."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  provider: ^6.1.4
+
+  http: ^1.2.0
+  path_provider: ^2.0.15
+  lottie: ^3.3.0
+
+  sqflite: ^2.3.1
+  path: ^1.9.1
+  shared_preferences: ^2.3.2
+
+  flutter_local_notifications: ^19.0.0
+  flutter_timezone: ^4.1.0
+  timezone: ^0.10.0
+
+  workmanager:
+    git:
+      url: https://github.com/fluttercommunity/flutter_workmanager.git
+      path: workmanager
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  test: ^1.25.2
+  mocktail: ^1.0.4
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/gowaroenk_logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animation/
+    - assets/image/
+    - assets/lottie/
+
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Rubik-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Rubik-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Rubik-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Rubik-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Rubik-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Rubik-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Rubik-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Rubik-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Rubik-BlackItalic.ttf
+          weight: 900
+          style: italic
+
+    - family: SansitaSwashed
+      fonts:
+        - asset: assets/fonts/SansitaSwashed-Regular.ttf
+        - asset: assets/fonts/SansitaSwashed-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SansitaSwashed-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SansitaSwashed-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SansitaSwashed-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SansitaSwashed-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/SansitaSwashed-Black.ttf
+          weight: 900

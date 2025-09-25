@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372807665823",
+    "project_id": "fir-ml-ceksantap",
+    "storage_bucket": "fir-ml-ceksantap.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372807665823:android:bb123d5af0f14fc2c07aaa",
+        "android_client_info": {
+          "package_name": "com.example.ceksantap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbqsFQyGr0Ngw6BEROCC7gtHm9bF06sJY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
