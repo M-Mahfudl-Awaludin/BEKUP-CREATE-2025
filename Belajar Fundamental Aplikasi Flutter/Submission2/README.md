@@ -2,21 +2,73 @@
 **ini adalah repository project saya selama mengikuti program BEKUP CREATE 2025 Multi-Platform App dengan Flutter**
 
 
-Program BEKUP Create: Upskilling Bootcamp 2025
+# Submission: Proyek Akhir - Favorite Restaurant App
 
-Salah satu program yang Ekraf luncurkan dalam BEKUP adalah BEKUP Create: Upskilling Bootcamp 2025 dengan topik Multi-Platform App Developer (Flutter).
+Selamat datang di submission **Proyek Akhir: Favorite Restaurant App** 🎉  
+Submission ini adalah kelanjutan dari **Proyek Awal: Restaurant App dengan API**.  
+Pastikan seluruh kriteria berikut terpenuhi agar submission Anda diterima.  
 
-Dalam kegiatan bootcamp intensif tahun ini, peserta akan mendapatkan transfer knowledge dari para praktisi handal yang sukses dalam pengembangan aplikasi Multi-Platform App Developer (Flutter) dengan materi, tutorial, latihan, pembelajaran berbasis proyek (project-based learning) dengan standar global, serta dukungan instruktur tatap muka, materi soft-skills dan pengembangan karir, fasilitator, forum diskusi, serta pengembangan prototipe proyek akhir secara online secara intensif dalam 5 bulan (Juli – November 2025).
+---
 
-Program belajar ini ditujukan untuk belajar programming secara online dan intensif di Dicoding dengan pembiayaan dari Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif (Kemenekraf/Bekraf) membuka kesempatan ini kepada generasi muda masa depan, baik yang sedang menempuh pendidikan formal Universitas/Politeknik ataupun yang tidak sedang menempuh pendidikan.
+## 🎯 Kriteria Submission
 
-Tahun 2025, program ini menawarkan alur pembelajaran Multi-Platform App Developer (Flutter) yang akan meliputi kelas-kelas:
-- Memulai Dasar Pemrograman untuk Menjadi Pengembang Software 
-- Pengenalan ke Logika Pemrograman (Programming Logic 101) 
-- Belajar Dasar Git dengan GitHub 
-- Memulai Pemrograman dengan Dart 
-- Belajar Membuat Aplikasi Flutter untuk Pemula 
-- Belajar Fundamental Aplikasi Flutter 
-- Belajar Prinsip Pemrograman SOLID
-- Belajar Dasar AI
-- Belajar Penerapan Machine Learning untuk Flutter
+### 1. Mempertahankan Kriteria Utama
+- Semua kriteria dari submission sebelumnya (**Restaurant App dengan API**) harus tetap dipertahankan.  
+
+---
+
+### 2. Halaman Favorit Restoran
+- Membuat **satu halaman khusus** berisi daftar restoran favorit.  
+- Informasi minimal yang ditampilkan pada setiap item card:  
+  - Nama restoran  
+  - Gambar restoran  
+  - Kota  
+  - Rating  
+- Apabila item favorit ditekan, aplikasi harus **berpindah ke halaman detail restoran**.  
+- Pengguna dapat **menambahkan** dan **menghapus** restoran dari daftar favorit (baik dari halaman detail maupun daftar favorit).  
+- Informasi daftar favorit harus disimpan di **SQLite Database**.  
+
+---
+
+### 3. Pengaturan Tema
+- Menambahkan menu untuk mengganti **tema terang (light)** dan **tema gelap (dark)**.  
+- Simpan perubahan tema menggunakan **SharedPreferences**.  
+- Tema harus tetap tersimpan walaupun aplikasi ditutup dan dibuka kembali.  
+- Pastikan setiap komponen aplikasi tetap terbaca dengan baik pada kedua tema.  
+
+---
+
+### 4. Fitur Daily Reminder
+- Menambahkan pengaturan untuk **menghidupkan** dan **mematikan reminder** di halaman **Settings**.  
+- Simpan pengaturan reminder menggunakan **SharedPreferences**.  
+- Reminder harus menampilkan **notifikasi pada pukul 11.00 AM** dengan memanfaatkan **Scheduled Notification**.  
+- Notifikasi berfungsi untuk mengingatkan pengguna mengenai makan siang.  
+
+---
+
+### 5. Pengujian (Testing)
+- Terapkan minimal **tiga skenario pengujian** pada fungsi di dalam **Provider** untuk mengambil daftar restoran.  
+- Skenario yang harus diuji:  
+  1. Memastikan **state awal provider** sudah terdefinisi.  
+  2. Memastikan **daftar restoran berhasil dikembalikan** ketika pengambilan data API sukses.  
+  3. Memastikan **kesalahan dikembalikan** ketika pengambilan data API gagal.  
+
+---
+
+## ✅ Syarat Kelulusan
+- Semua kriteria di atas harus terpenuhi.  
+- Aplikasi dapat dijalankan tanpa error.  
+- Tidak ada tampilan overflow.  
+- Tema dan reminder tersimpan dengan baik setelah aplikasi ditutup dan dibuka kembali.  
+- Pengujian harus berjalan sukses.  
+
+---
+
+## 🚀 Cara Menjalankan
+1. Pastikan Flutter SDK sudah terinstall.  
+2. Clone atau download repository ini.  
+3. Jalankan perintah berikut di terminal:  
+
+```bash
+flutter pub get
+flutter run
