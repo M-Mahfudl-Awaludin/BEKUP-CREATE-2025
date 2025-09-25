@@ -2,21 +2,70 @@
 **ini adalah repository project saya selama mengikuti program BEKUP CREATE 2025 Multi-Platform App dengan Flutter**
 
 
-Program BEKUP Create: Upskilling Bootcamp 2025
+# Submission: Proyek Awal - Restaurant App dengan API
 
-Salah satu program yang Ekraf luncurkan dalam BEKUP adalah BEKUP Create: Upskilling Bootcamp 2025 dengan topik Multi-Platform App Developer (Flutter).
+Selamat datang di submission **Proyek Awal: Restaurant App dengan API** 🎉  
+Pada submission ini, Anda akan membuat aplikasi Flutter yang menampilkan data restoran dari API.  
+Submission ini merupakan bagian penting untuk melanjutkan ke **submission akhir**, jadi pastikan semua kriteria wajib terpenuhi.  
 
-Dalam kegiatan bootcamp intensif tahun ini, peserta akan mendapatkan transfer knowledge dari para praktisi handal yang sukses dalam pengembangan aplikasi Multi-Platform App Developer (Flutter) dengan materi, tutorial, latihan, pembelajaran berbasis proyek (project-based learning) dengan standar global, serta dukungan instruktur tatap muka, materi soft-skills dan pengembangan karir, fasilitator, forum diskusi, serta pengembangan prototipe proyek akhir secara online secara intensif dalam 5 bulan (Juli – November 2025).
+---
 
-Program belajar ini ditujukan untuk belajar programming secara online dan intensif di Dicoding dengan pembiayaan dari Kementerian Ekonomi Kreatif/Badan Ekonomi Kreatif (Kemenekraf/Bekraf) membuka kesempatan ini kepada generasi muda masa depan, baik yang sedang menempuh pendidikan formal Universitas/Politeknik ataupun yang tidak sedang menempuh pendidikan.
+## 🎯 Kriteria Submission
 
-Tahun 2025, program ini menawarkan alur pembelajaran Multi-Platform App Developer (Flutter) yang akan meliputi kelas-kelas:
-- Memulai Dasar Pemrograman untuk Menjadi Pengembang Software 
-- Pengenalan ke Logika Pemrograman (Programming Logic 101) 
-- Belajar Dasar Git dengan GitHub 
-- Memulai Pemrograman dengan Dart 
-- Belajar Membuat Aplikasi Flutter untuk Pemula 
-- Belajar Fundamental Aplikasi Flutter 
-- Belajar Prinsip Pemrograman SOLID
-- Belajar Dasar AI
-- Belajar Penerapan Machine Learning untuk Flutter
+### 1. Halaman Daftar Restoran
+- Membuat **satu halaman** berisi daftar restoran.  
+- Data restoran harus didapat dari **API**.  
+- Informasi minimal yang ditampilkan pada setiap item:  
+  - Nama restoran  
+  - Gambar restoran  
+  - Kota  
+  - Rating  
+
+### 2. Halaman Detail Restoran
+- Membuat **satu halaman** berisi detail restoran.  
+- Data detail restoran harus didapat dari **API**.  
+- Informasi yang ditampilkan:  
+  - Nama restoran  
+  - Gambar restoran  
+  - Deskripsi  
+  - Kota  
+  - Alamat  
+  - Rating  
+  - Menu makanan  
+  - Menu minuman  
+
+### 3. Mengganti Tema Default
+- Menambahkan **tema terang (light)** dan **tema gelap (dark)**.  
+- Mengubah default **font type** aplikasi.  
+- Mengganti **warna tema** selain warna default bawaan Flutter.  
+
+### 4. Indikator Loading
+- Tampilkan indikator loading setiap kali melakukan pemanggilan API.  
+- Indikator dapat berupa:  
+  - `CircularProgressIndicator`  
+  - Gambar animasi  
+  - Animasi menggunakan **Lottie** atau **Rive**  
+
+### 5. Menggunakan State Management
+- Wajib menggunakan library **Provider**.  
+- Cukup menggunakan **satu state management** untuk mengelola state aplikasi.  
+- Gunakan **sealed class** (misalnya `Loading`, `HasData`, `NoData`, `Error`) untuk mengatur status pemanggilan API.  
+
+---
+
+## ✅ Syarat Kelulusan
+- Semua kriteria di atas harus dipenuhi.  
+- Aplikasi dapat dijalankan tanpa error.  
+- Tampilan rapi dan bebas overflow.  
+- Menggunakan state management **Provider** secara konsisten.  
+
+---
+
+## 🚀 Cara Menjalankan
+1. Pastikan Flutter SDK sudah terinstall.  
+2. Clone atau download repository ini.  
+3. Jalankan perintah berikut:  
+
+```bash
+flutter pub get
+flutter run
