@@ -1,6 +1,24 @@
 # BEKUP-CREATE-2025
 **ini adalah repository project saya selama mengikuti program BEKUP CREATE 2025 Multi-Platform App dengan Flutter**
 
+# 🍽️ GoWaroenk – BEKUP CREATE 2025  
+**Repository Project: BEKUP CREATE 2025 Multi-Platform App with Flutter**
+
+---
+
+## 📱 Tentang Aplikasi  
+**GoWaroenk** adalah aplikasi Flutter yang dikembangkan sebagai bagian dari program **BEKUP CREATE 2025**, dalam kelas *Multi-Platform App Development with Flutter*.  
+Aplikasi ini berfokus pada penjelajahan kuliner Indonesia melalui daftar restoran yang ditampilkan secara dinamis dari API publik.  
+Pengguna dapat melihat daftar restoran, menelusuri detail setiap restoran, hingga menikmati tampilan antarmuka yang elegan dengan tema terang dan gelap.  
+
+Tema: **Restaurant Finder & Food Discovery App**
+
+---
+
+## 🎨 Mockup Desain  
+Berikut tampilan rancangan antarmuka aplikasi **GoWaroenk** 👇  
+
+![Mockup Desain GoWaroenk](mockup_desain_gowaroenk1.png)
 
 # Submission: Proyek Awal - Restaurant App dengan API
 
